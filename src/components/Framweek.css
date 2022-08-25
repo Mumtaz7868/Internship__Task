@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.dayweek {
+  margin-top: 40px;
+  /* margin-bottom: 80px; */
+  margin-left: 30px;
+  margin-right: 30px;
+  text-transform: uppercase;
+  /* border: 2px solid; */
+}
+.dayweek span {
+  padding-right: 30px;
+  color: #797d7f;
+}
+.dayweek__date {
+  margin-top: 50px;
+  padding-left: 5px;
+  margin-bottom: 40px;
+}
+.dayweek__date span {
+  color: #12121f;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 30px;
+}
+#pinkspan {
+  padding: 30px;
+  margin-right: 20px;
+  background-color: #f60c87;
+  border-radius: 16px;
+}
+#seashellspan {
+  padding: 30px;
+  margin-right: 10px;
+  background-color: seashell;
+  border-radius: 16px;
+}
+.Taskview {
+  height: 150px;
+  background: #ffde25;
+  box-shadow: none;
+  margin-left: 120px;
+  margin-top: 160px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+.Taskview img {
+  border-radius: 50%;
+  float: none;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.Taskview p {
+  margin-right: 0px;
+}
+.icons {
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #12121f;
+  float: right;
+}
+.metting {
+  height: 120px;
+  margin: 0px;
+  margin-right: 0px;
+  margin-left: 120px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  background: deeppink;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.metting p {
+  margin-right: 0px;
+  color: #ffffff;
+}
+.metting img {
+  border-radius: 50%;
+  float: none;
+  margin-top: 20px;
+  margin-right: -7px;
+}
+.metting #fimg {
+  margin-right: 0px;
+  margin-left: 30px;
+}
+#hr {
+  height: 8px;
+  background-color: #000000;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

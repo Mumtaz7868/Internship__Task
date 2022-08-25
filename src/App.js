@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Home from "./components/Home.jsx";
+import Taskcreation from "./components/Taskcreation.jsx";
+import Taskcreationfull from "./components/Taskcreationfull.jsx";
+import Taskview from "./components/Taskview.jsx";
+import Calendar from "./components/Calendar.jsx";
+import Dashboard from "./components/Dashboard.jsx";
+import Setting from "./components/Setting.jsx";
+import Profile from "./components/Profile.jsx";
+import MenuItem from "./components/MenuItem.jsx";
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MenuItem />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/Taskview" element={<Taskview />} />
+        <Route path="/taskcreation" element={<Taskcreation />} />
+        <Route path="/taskcreationfull" element={<Taskcreationfull />} />
+        <Route path="/calendar" element={<Calendar />} />
+        <Route path="/setting" element={<Setting />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+      {/* <Home /> */}
+      {/* <Taskview /> */}
+      {/* <Taskcreation /> */}
+      {/* <Taskcreationfull /> */}
+      {/* <Calendar /> */}
+      {/* <Dashboard /> */}
+      {/* <Setting /> */}
+      {/* <Profile /> */}
     </div>
   );
 }

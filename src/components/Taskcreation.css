@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.StatusBar {
+  background-color: silver;
+  height: 100px;
+}
+.Taskcreation #Xmark {
+  float: right;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.Taskcreation input {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 140px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #e5eef2;
+  font-weight: 700;
+}
+.Taskcreation__department {
+  display: flex;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid;
+  border-radius: 30px;
+  color: deeppink;
+}
+.Taskcreation__department #faplus {
+  margin-left: 20px;
+  margin-right: 8px;
+}
+.Taskcreation__department #fauser {
+  margin-left: 40px;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-style: dotted;
+  padding-left: 7px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #797d7f;
+}
+.Taskcreation__setdate {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.Taskcreation__setdate select {
+  padding-right: 240px;
+  font-size: 20px;
+  color: #797d7f;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+#facalendarDays {
+  font-size: 25px;
+  margin-left: 25px;
+  margin-right: 20px;
+  color: #797d7f;
+}
+.Taskcreation__hour {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.Taskcreation__hour select {
+  padding-right: 263px;
+  font-size: 20px;
+  color: #797d7f;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+.Taskcreation__hour #faclock {
+  font-size: 25px;
+  margin-left: 25px;
+  margin-right: 20px;
+  color: #797d7f;
+}
+.Taskcreation__remote {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  color: #797d7f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Taskcreation__remote #facap {
+  font-size: 25px;
+  margin-left: 22px;
+  margin-right: 18px;
+  color: #797d7f;
+}
+.Taskcreation__remote #toggleon {
+  font-size: 45px;
+  margin-left: 230px;
+  color: #ffde25;
+}
+.Taskcreation__office {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.Taskcreation__office select {
+  text-align: center;
+  border: 2px solid;
+  border-style: dotted;
+  border-radius: 30px;
+  padding: 10px;
+  width: 150px;
+  appearance: none;
+  font-size: 20px;
+  color: #797d7f;
+  outline: none;
+  margin-left: 30px;
+}
+.Taskcreation__office #fabulding {
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right: 18px;
+  color: #797d7f;
+}
+.Taskcreation__office p {
+  font-size: 20px;
+  color: #797d7f;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.Taskcreation__office option span {
+  padding-right: 10px;
+}
+.Taskcreation__description {
+  display: flex;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.Taskcreation__description input {
+  text-align: center;
+  width: 160px;
+  font-size: 20px;
+  color: #797d7f;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+.Taskcreation__description #faAlign {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 10px;
+  color: #797d7f;
+}
+.Taskcreation__description #faArrow {
+  font-size: 25px;
+  margin-left: 190px;
+  margin-right: 18px;
+  color: #797d7f;
+}
+#image {
+  margin-top: 100px;
+}

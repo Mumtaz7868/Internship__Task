@@ -1,0 +1,45 @@
+.StatusBar {
+  background-color: #ffffff;
+}
+
+.topmenu p {
+  margin-left: 140px;
+  margin-right: 20px;
+}
+#Bars {
+  margin-left: 30px;
+}
+#faellipsis {
+  display: none;
+}
+#Week {
+  display: none;
+}
+#Month {
+  display: none;
+}
+.bigtoggle {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.bigtoggle__mytask {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  z-index: 0;
+  color: #797d7f;
+  background: linear-gradient(282.38deg, #ffffff 0.64%, #ffffff 75.95%);
+}
+.bigtoggle__calender {
+  background: fixed;
+  background-color: #f60c87;
+  color: #ffffff;
+  border-radius: 40.5px;
+  z-index: 1;
+}
+.dayweek__date {
+  padding-bottom: 30px;
+}
+#hrFramweek {
+  margin-left: 20px;
+  margin-right: 20px;
+}

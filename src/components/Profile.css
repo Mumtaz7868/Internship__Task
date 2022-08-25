@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body {
+  background-color: gray;
+  padding-bottom: 1px;
+}
+.profile {
+  height: 800px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  border-radius: 16px;
+  margin: 15px;
+}
+.profile #AngleLeft {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.profile span {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-left: 130px;
+}
+.profile__edit {
+  text-align: center;
+  margin-top: 40px;
+}
+.profile__edit img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.profile__edit p {
+  color: deeppink;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.profile__name {
+  margin-top: 20px;
+  margin-left: 22px;
+  margin-right: 22px;
+  font-family: sans-serif;
+  color: grey;
+}
+.profile__name input {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.profile__department {
+  margin-top: 20px;
+  margin-left: 22px;
+  margin-right: 22px;
+  font-family: sans-serif;
+  color: grey;
+  /* border: 2px solid; */
+}
+.profile__department select {
+  border: 2px solid;
+  height: 40px;
+  border-radius: 12px;
+  padding-left: 15px;
+  margin-top: 15px;
+  width: 400px;
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 5px;
+}
+.profile__department option {
+  font-size: large;
+}
+.profile__change {
+  text-align: center;
+  margin-top: 150px;
+}
+.profile__change button {
+  height: 60px;
+  width: 400px;
+  border-radius: 40px;
+  font-size: 20px;
+  background-color: deeppink;
+  color: #ffffff;
+  border: none;
+}

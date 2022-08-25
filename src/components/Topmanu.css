@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.topmenu {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  height: 30px;
+  /* border: 2px solid; */
+  align-items: center;
+}
+
+.topmenu p {
+  margin-left: 160px;
+  font-size: 23px;
+  font-weight: bold;
+}
+#Bell {
+  margin-left: 65px;
+  font-size: 22px;
+}
+#icon {
+  color: #12121f;
+  margin-left: 15px;
+  font-size: 22px;
+}
+#Bars {
+  margin-left: 15px;
+  font-size: 25px;
+}
